@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="128" tileheight="128" nextobjectid="1">
+ <tileset firstgid="1" name="deepwater" tilewidth="128" tileheight="128" tilecount="14" columns="2">
+  <image source="deepwater/tile+alpha/tile.png" trans="000000" width="256" height="896"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="12" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="15" name="water" tilewidth="128" tileheight="128" tilecount="17" columns="0">
+  <terraintypes>
+   <terrain name="water" tile="13"/>
+  </terraintypes>
+  <tile id="9" terrain="0,0,,">
+   <image width="128" height="128" source="water/water_bm_notop.png"/>
+   <animation>
+    <frame tileid="9" duration="400"/>
+    <frame tileid="10" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="water/water_bm2_notop.png"/>
+  </tile>
+  <tile id="11" terrain=",0,,0">
+   <image width="128" height="128" source="water/water_ml_notop.png"/>
+   <animation>
+    <frame tileid="11" duration="400"/>
+    <frame tileid="12" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="water/water_ml2_notop.png"/>
+  </tile>
+  <tile id="13" terrain="0,0,0,0">
+   <image width="128" height="128" source="water/water_mm_notop.png"/>
+  </tile>
+  <tile id="14" terrain="0,,0,">
+   <image width="128" height="128" source="water/water_mr_notop.png"/>
+   <animation>
+    <frame tileid="14" duration="400"/>
+    <frame tileid="15" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="water/water_mr2_notop.png"/>
+  </tile>
+  <tile id="16" terrain=",,0,0">
+   <image width="128" height="128" source="water/water_tm_notop.png"/>
+   <animation>
+    <frame tileid="16" duration="400"/>
+    <frame tileid="17" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="water/water_tm2_notop.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="water/water_i1_1_notop.png"/>
+  </tile>
+  <tile id="19" terrain="0,0,0,">
+   <image width="128" height="128" source="water/water_i1_2_notop.png"/>
+   <animation>
+    <frame tileid="18" duration="400"/>
+    <frame tileid="19" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="20">
+   <image width="128" height="128" source="water/water_i2_1_notop.png"/>
+  </tile>
+  <tile id="21" terrain="0,0,,0">
+   <image width="128" height="128" source="water/water_i2_2_notop.png"/>
+   <animation>
+    <frame tileid="20" duration="400"/>
+    <frame tileid="21" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="22">
+   <image width="128" height="128" source="water/water_i3_1_notop.png"/>
+  </tile>
+  <tile id="23" terrain="0,,0,0">
+   <image width="128" height="128" source="water/water_i3_2_notop.png"/>
+   <animation>
+    <frame tileid="22" duration="400"/>
+    <frame tileid="23" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="24">
+   <image width="128" height="128" source="water/water_i4_1_notop.png"/>
+  </tile>
+  <tile id="25" terrain=",0,0,0">
+   <image width="128" height="128" source="water/water_i4_2_notop.png"/>
+   <animation>
+    <frame tileid="24" duration="400"/>
+    <frame tileid="25" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="41" name="stone" tilewidth="128" tileheight="128" tilecount="14" columns="2">
+  <image source="stone/tile+alpha/tile.png" trans="000000" width="256" height="896"/>
+  <terraintypes>
+   <terrain name="stone" tile="8"/>
+  </terraintypes>
+  <tile id="0" terrain=",0,,"/>
+  <tile id="1" terrain="0,0,,"/>
+  <tile id="2" terrain="0,,,"/>
+  <tile id="3" terrain="0,0,0,"/>
+  <tile id="4" terrain="0,0,,0"/>
+  <tile id="5" terrain="0,,0,0"/>
+  <tile id="6" terrain=",0,0,0"/>
+  <tile id="7" terrain=",0,,0"/>
+  <tile id="8" terrain="0,0,0,0"/>
+  <tile id="9" terrain="0,,0,"/>
+  <tile id="10" terrain=",,,0"/>
+  <tile id="11" terrain=",,0,0"/>
+  <tile id="12" terrain=",,0,"/>
+ </tileset>
+ <tileset firstgid="55" name="sand" tilewidth="128" tileheight="128" tilecount="14" columns="2">
+  <image source="sand/tile+alpha/tile.png" trans="000000" width="256" height="896"/>
+  <terraintypes>
+   <terrain name="sand" tile="8"/>
+  </terraintypes>
+  <tile id="0" terrain=",0,,"/>
+  <tile id="1" terrain="0,0,,"/>
+  <tile id="2" terrain="0,,,"/>
+  <tile id="3" terrain=",0,0,0"/>
+  <tile id="4" terrain="0,,0,0"/>
+  <tile id="5" terrain="0,0,,0"/>
+  <tile id="6" terrain="0,0,0,"/>
+  <tile id="7" terrain=",0,,0"/>
+  <tile id="8" terrain="0,0,0,0"/>
+  <tile id="9" terrain="0,,0,"/>
+  <tile id="10" terrain=",,,0"/>
+  <tile id="11" terrain=",,0,0"/>
+  <tile id="12" terrain=",,0,"/>
+ </tileset>
+ <tileset firstgid="69" name="gras" tilewidth="128" tileheight="128" tilecount="14" columns="2">
+  <image source="gras/tile+alpha/tile.bmp" trans="000000" width="256" height="896"/>
+  <terraintypes>
+   <terrain name="gras" tile="8"/>
+  </terraintypes>
+  <tile id="0" terrain=",0,,"/>
+  <tile id="1" terrain="0,0,,"/>
+  <tile id="2" terrain="0,,,"/>
+  <tile id="3" terrain="0,0,0,"/>
+  <tile id="4" terrain="0,0,,0"/>
+  <tile id="5" terrain="0,,0,0"/>
+  <tile id="6" terrain=",0,0,0"/>
+  <tile id="7" terrain=",0,,0"/>
+  <tile id="8" terrain="0,0,0,0"/>
+  <tile id="9" terrain="0,,0,"/>
+  <tile id="10" terrain=",,,0"/>
+  <tile id="11" terrain=",,0,0"/>
+  <tile id="12" terrain=",,0,"/>
+ </tileset>
+ <layer name="deepwater" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKH7/qWXY6DgqqmqqqqqqqqqqurzBwHpCcU=
+  </data>
+ </layer>
+ <layer name="water" width="50" height="50" offsetx="-2304" offsety="1536">
+  <data encoding="base64" compression="zlib">
+   eJzt1FEKgCAQhGGPIVEEEtH9T1g9BEtkphJO8X+wD77NsKpzAAAAAAC8a4yMsnPWZZs+MnOjjCl3mWMzNEka17n8Doo7Ke2htpOaHko7qemhtBN6aPUo+XOPCQ3yXqnpoPLOa++Tyr2ix/96qLzzyX17F1ZpF5VdWDld9vy+TcxHvBnbK5iz4g5Sjk72DAAAAF0rD/Mg/A==
+  </data>
+ </layer>
+ <layer name="sand" width="50" height="50" offsetx="-2304" offsety="1536">
+  <data encoding="base64" compression="zlib">
+   eJzt1EsOgzAQg+G5FZSWlsf979RkgYRQSpLpIgb9n+T9WFZiBgAAAAAASswhyyFr04vyUjcPIZ9DnqbbJXZI3fwrU5Mr895W3kF5k9oeqpt4eihu4umhuImnxxjyaHHsiTu8j9o/V7GHt4PaO/e+b7VN/umh9M67kJdde4uNp4vSFnulXeL9vWl22MQufSbK9wMAAABKvrraOhY=
+  </data>
+ </layer>
+ <layer name="stone" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1FsKhTAMRdFMx7dWnf/UrGgxFIVShDawF5yP/uXcmCsCAAAAAAAAAAAAIMfqs0XZi06UZ/ZZooxir0vo0fu0PsP9diWHyhB6uOhtaSfnbUzyzL2pt6Uub7dh8VZSetR+K/qb+kq4/a7QjClSdlHzHoJGrt9a/9da7KF97cZaD70bnZrvAvjbAXYjE78=
+  </data>
+ </layer>
+ <layer name="gras" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0UsKAjEQBNC+nKPO+L3/ZUwYAhLdmE1oeQ9qX0VFAAAAAAAAkNW95NHlObXRmEvJtcsaubbUL7b43FFzm9jrV9++sGOeQ8lSco7cO5r3X06xbztObTSm/ZK1PwD8sxe91BBe
+  </data>
+ </layer>
+ <objectgroup name="bullets"/>
+ <objectgroup name="objects"/>
+</map>
